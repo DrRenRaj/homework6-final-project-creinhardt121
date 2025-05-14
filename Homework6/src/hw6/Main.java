@@ -20,7 +20,7 @@ public class Main {
             System.out.println("8. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Consume newline
+            scanner.nextLine();  
 
             if (choice == 1) {
                 System.out.print("Enter title: ");
